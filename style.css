@@ -1,0 +1,72 @@
+/*Make css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Make body*/
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Container*/
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+/*cursor*/
+.cursor {
+    font-weight: 400;
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+    /*typing effect*/
+  .typing-effect{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+
+  
+  .typing-effect:last-child .cursor {
+    display: none;
+  }
+
+  /*Stop button*/
+  #stop-button {
+    color: black;
+    background-color: yellowgreen;
+    padding: 0.25rem 0.35rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+ h1.typing-effect{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+ }
+
+ p.typing-effect{
+    margin-bottom: 1rem;
+ }
+    
